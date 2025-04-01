@@ -1,4 +1,4 @@
-//package Student_Grade_Analyzer;
+package Student_Grade_Analyzer;
 
 import java.util.Scanner;
 
