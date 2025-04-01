@@ -1,4 +1,4 @@
-package Student_Grade_Analyzer;
+//package Student_Grade_Analyzer;
 
 import java.util.Scanner;
 
@@ -19,12 +19,12 @@ public class StudentGradeAnalyzer {
         }
 
         //Initialize variables for the highest and lowest
-        int highest = Integer.MIN_VALUE;
-        int lowest = Integer.MAX_VALUE;
-        int sum = 0;
+        int highest = grades[0];
+        int lowest = grades[0];
+        int sum = grades[0];
 
         //loop through the grades array
-        for (int i = 0; i < numStudents; i++) {
+        for (int i = 1; i < numStudents; i++) {
             if (grades[i] > highest) {
                 highest = grades[i]; //update highest if grade is greater
             }
